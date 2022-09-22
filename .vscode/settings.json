@@ -1,0 +1,9 @@
+{
+    "gopls": {
+        // simulates -> //go:build js && wasm
+        "build.env": {
+            "GOOS": "js",
+            "GOARCH": "wasm"
+        }
+    }
+}
